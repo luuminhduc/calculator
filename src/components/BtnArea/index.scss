@@ -1,0 +1,22 @@
+.btnArea {
+  .first_btn_arr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 15px;
+  }
+  .last_btn_arr {
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  span {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

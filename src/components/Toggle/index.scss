@@ -1,0 +1,34 @@
+.toggle {
+  width: 70px;
+  margin-left: 20px;
+  font-size: 12px;
+  .theme_number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    span {
+      cursor: pointer;
+    }
+  }
+  .theme_circle_container {
+    width: 70px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    .theme_circle {
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      opacity: 0;
+      &.active {
+        opacity: 100;
+        background-color: red;
+      }
+    }
+  }
+}

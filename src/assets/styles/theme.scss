@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+
+$font-family: "Spartan", sans-serif;
+
+// theme1
+$main_bg_1: hsl(222, 26%, 31%);
+$toggle_bg_1: hsl(223, 31%, 20%);
+$screen_bg_1: hsl(224, 36%, 15%);
+
+$key_bg_1: hsl(225, 21%, 49%);
+$key_shadow_1: hsl(224, 28%, 35%);
+$key_toogle_1: hsl(6, 63%, 50%);
+$key_red_shadow: hsl(6, 70%, 34%);
+
+$main_btn_bg_1: hsl(30, 25%, 89%);
+$main_btn_shadow_1: hsl(28, 16%, 65%);
+
+$text_color_1: hsl(221, 14%, 31%);
+
+// theme 2
+
+$main_bg_2: hsl(0, 0%, 90%);
+$toggle_bg_2: hsl(0, 5%, 81%);
+$screen_bg_2: hsl(0, 0%, 93%);
+
+$key_bg_2: hsl(185, 42%, 37%);
+$key_shadow_2: hsl(185, 58%, 25%);
+$key_toogle_2: hsl(25, 98%, 40%);
+$key_orange_shadow: hsl(25, 99%, 27%);
+
+$main_btn_bg_2: hsl(45, 7%, 89%);
+$main_btn_shadow_2: hsl(35, 11%, 61%);
+
+$text_color_2: hsl(60, 10%, 19%);
+
+// theme 3
+$main_bg_3: hsl(268, 75%, 9%);
+$toggle_bg_3: hsl(268, 71%, 12%);
+$screen_bg_3: hsl(268, 71%, 12%);
+
+$key_bg_3: hsl(281, 89%, 26%);
+$key_shadow_3: hsl(285, 91%, 52%);
+$key_toogle_3: hsl(176, 100%, 44%);
+$key_blue_shadow: hsl(177, 92%, 70%);
+
+$main_btn_bg_3: hsl(268, 47%, 21%);
+$main_btn_shadow_3: hsl(290, 70%, 36%);
+
+$text_color_3: hsl(52, 100%, 62%);
+$text_dark_blue: hsl(198, 20%, 13%);
+
+$white: hsl(0, 0, 100%);

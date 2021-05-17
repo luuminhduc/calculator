@@ -1,0 +1,120 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $text_color_1;
+  font-weight: 700;
+  &.theme_1 {
+    background-color: $main_bg_1;
+    .header {
+      .theme_circle_container {
+        background-color: $toggle_bg_1;
+        .theme_circle {
+          background-color: $key_toogle_1;
+        }
+      }
+    }
+    .screen {
+      background-color: $screen_bg_1;
+    }
+    .btnArea {
+      background-color: $toggle_bg_1;
+      padding: 20px;
+      border-radius: 5px;
+      span {
+        background-color: $main_btn_bg_1;
+        box-shadow: 0 3px $main_btn_shadow_1;
+      }
+      .del,
+      .reset_btn {
+        background-color: $key_bg_1;
+        box-shadow: 0 3px $key_shadow_1;
+        color: $white;
+      }
+      .equal_btn {
+        background-color: $key_toogle_1;
+        box-shadow: 0 3px $key_red_shadow;
+        color: $white;
+      }
+    }
+  }
+  // THEME 2
+  &.theme_2 {
+    background-color: $main_bg_2;
+    .header {
+      color: $text_color_2;
+      .theme_circle_container {
+        background-color: $toggle_bg_2;
+        .theme_circle {
+          background-color: $key_toogle_2;
+        }
+      }
+    }
+    .screen {
+      background-color: $screen_bg_2;
+      color: $text_color_2;
+    }
+    .btnArea {
+      background-color: $toggle_bg_2;
+      padding: 20px;
+      border-radius: 5px;
+      span {
+        background-color: $main_btn_bg_2;
+        box-shadow: 0 3px $main_btn_shadow_2;
+      }
+
+      .del,
+      .reset_btn {
+        background-color: $key_bg_2;
+        box-shadow: 0 3px $key_shadow_2;
+        color: $white;
+      }
+      .equal_btn {
+        background-color: $key_toogle_2;
+        box-shadow: 0 3px $key_orange_shadow;
+        color: $white;
+      }
+    }
+  }
+  // THEME 3
+  &.theme_3 {
+    background-color: $main_bg_3;
+    .header {
+      color: $text_color_3;
+      .theme_circle_container {
+        background-color: $toggle_bg_3;
+        .theme_circle {
+          background-color: $key_toogle_3;
+        }
+      }
+    }
+    .screen {
+      background-color: $screen_bg_3;
+      color: $text_color_3;
+    }
+    .btnArea {
+      background-color: $toggle_bg_3;
+      padding: 20px;
+      border-radius: 5px;
+      span {
+        background-color: $main_btn_bg_3;
+        box-shadow: 0 3px $main_btn_shadow_3;
+        color: $text_color_3;
+      }
+
+      .del,
+      .reset_btn {
+        background-color: $key_bg_3;
+        box-shadow: 0 3px $key_shadow_3;
+        color: $white;
+      }
+      .equal_btn {
+        background-color: $key_toogle_3;
+        box-shadow: 0 3px $key_blue_shadow;
+        color: $text_dark_blue;
+      }
+    }
+  }
+}

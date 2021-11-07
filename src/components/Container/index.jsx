@@ -134,7 +134,7 @@ const Container = () => {
         for (let i = 0; i < list.length; i++) {
           while (errorOperatorArr.includes(list[i])) {
             let num;
-            if ((list[i] = "x")) {
+            if (list[i] === "x") {
               num = list[i - 1] * list[i + 1];
             } else {
               num = list[i - 1] / list[i + 1];
